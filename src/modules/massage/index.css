@@ -1,0 +1,12 @@
+.header {
+  padding-left: 10ch;
+  padding-top: 1ch;
+  color: darkgreen;
+  justify-content: space-between;
+}
+
+.intro {
+  padding-left: 10ch;
+  padding-top: 1ch;
+  font-size: large;
+}
