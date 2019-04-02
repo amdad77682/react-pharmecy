@@ -5,7 +5,7 @@ import "./index.css";
 export class Massage extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="container ">
         <div className="header">
           <h2>Welcome to Bio Care Agro Limited, the world </h2>
         </div>

@@ -7,24 +7,24 @@ export class Navigation extends React.Component {
   render() {
     return (
       <HashRouter>
-        <div className="App">
-          <ul className="head">
-            <li>
+        <div className="">
+          <div className="flex flex-row justify-between bg-grey p-5 ">
+            <div className=" items-center ml-20">
               <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
+            </div>
+            <div className="items-center ">
               <NavLink to="/stuff">Products</NavLink>
-            </li>
-            <li>
+            </div>
+            <div className="items-center">
               <NavLink to="/contact">About Us</NavLink>
-            </li>
-            <li>
+            </div>
+            <div className="items-center">
               <NavLink to="/contact">Contact Us</NavLink>
-            </li>
-            <li>
+            </div>
+            <div className="items-center mr-20">
               <NavLink to="/contact">Gallary</NavLink>
-            </li>
-          </ul>
+            </div>
+          </div>
           <div className="content">
             <Route path="/" />
             <Route path="/stuff" />
