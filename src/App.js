@@ -4,7 +4,7 @@ import { Header } from "./modules/header";
 import { Footer } from "./modules/footer";
 import { Massage } from "./modules/massage";
 import { Navigation } from "./modules/navigation";
-
+import "../src/css/main.css";
 class App extends Component {
   render() {
     return (
